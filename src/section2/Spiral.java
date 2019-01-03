@@ -21,5 +21,19 @@ public class Spiral {
 		
 			// 8. Set the pen width to i
 			
+		{	Robot r2d2=new Robot();
+r2d2.penDown();
+r2d2.setSpeed(100);
+for (int i = 0; i < 75; i++) {
+	r2d2.setRandomPenColor();
+	r2d2.move(5*i);
+	r2d2.turn(360/7);
+	r2d2.setPenWidth(i);
+	
+}
+
+		
+		}
+
 	}
 }
