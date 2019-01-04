@@ -24,7 +24,7 @@ int y = 95;
 		// 7. Use a for loop to repeat steps #2 to #11, 200 times. When this is done you should see a pentagon
 for (int i = 0; i < 200; i++) 
 			// 2. Move the robot 200 pixels
-	r2d2.move(i);
+	r2d2.move(50);
 			// 10. Change the previous line of code to make the robot move "i" pixels instead of 200 
 	
 			// 6. Turn the robot the amount in your angle variable
